@@ -42,17 +42,11 @@
                 headers: {
                     "Content-Type": 'application/json',
                     "Access-Control-Request-Headers":"*",
-                    'Access-Control-Allow-Origin':'*',
                     'api-key':'7li3zXAZE0ND2JtcmaOyOJv5nsPBReZd1Nvs8kjFJBvylKCA5juCTgWiUWLMSfbc',
                     "Cache-Control":"no-cache",
-                    "Accept":"*/*",
-                    // "Host":"www.pixis.com",
-                    "User-Agent":"PostmanRuntime/7.29.2"        },
+                    "Accept":"*/*",     },
                 body: JSON.stringify(body),
-                credentials: 'same-origin',
-                mode: 'no-cors',
-                referrer: 'no-referrer',
-                redirect: 'follow'
+
         })
         .then((response)=>{
             return response.json();
