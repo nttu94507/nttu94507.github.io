@@ -43,12 +43,12 @@
                     "Content-Type": 'application/json',
                     'API-Key':'7li3zXAZE0ND2JtcmaOyOJv5nsPBReZd1Nvs8kjFJBvylKCA5juCTgWiUWLMSfbc',
                     'Accept':'application/json',
-                    "Access-Control-Allow-Origin":"https://nttu94507.github.io",
-                    "Access-Control-Allow-Headers":"Content-Type,API-Key"
+                    "Access-Control-Allow-Origin":'https://nttu94507.github.io'
+                    // "Access-Control-Allow-Headers":"Content-Type,API-Key"
                  },
                 body: JSON.stringify(body),
-                mode:"cors",
-                credentials:"include"
+                // mode:"cors",
+                // credentials:"include"
         })
         .then((response)=>{
             return response.json();
