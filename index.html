@@ -37,17 +37,21 @@
                         "place":" 中正"
                     }
                 }
-        fetch('https://nttu94507.github.io/https://data.mongodb-api.com/app/data-saicg/endpoint/data/v1/action/findOne',{
+        fetch('https://data.mongodb-api.com/app/data-saicg/endpoint/data/v1/action/findOne',{
                 method: "POST",
                 headers: {
                     "Content-Type": 'application/json',
                     'api-key':'7li3zXAZE0ND2JtcmaOyOJv5nsPBReZd1Nvs8kjFJBvylKCA5juCTgWiUWLMSfbc',
+                    'Accept':'application/json',
+                    "Origin":"https://nttu94507.github.io"
                  },
                 body: JSON.stringify(body),
+                mode:"cors",
+                credentials:"include"
         })
-        // .then((response)=>{
-        //     return response.json();
-        // })
+        .then((response)=>{
+            return response.json();
+        })
         .then((response) =>{
             console.log(response.json());
         })
