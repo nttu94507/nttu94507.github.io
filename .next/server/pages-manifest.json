@@ -1,0 +1,21 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/customers/customerlist": "pages/customers/customerlist.html",
+  "/customers/edit/[id]": "pages/customers/edit/[id].html",
+  "/customers/edit": "pages/customers/edit.html",
+  "/customers/infomation/[Id]": "pages/customers/infomation/[Id].html",
+  "/customers": "pages/customers.html",
+  "/employees/edit/[Id]": "pages/employees/edit/[Id].html",
+  "/employees/edit": "pages/employees/edit.html",
+  "/employees/employeeslist": "pages/employees/employeeslist.html",
+  "/employees": "pages/employees.html",
+  "/probes/edit/[Id]": "pages/probes/edit/[Id].html",
+  "/": "pages/index.html",
+  "/probes": "pages/probes.html",
+  "/probes/edit": "pages/probes/edit.html",
+  "/probes/probelist": "pages/probes/probelist.html",
+  "/sidebar/sidebar": "pages/sidebar/sidebar.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
